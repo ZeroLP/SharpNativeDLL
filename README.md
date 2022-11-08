@@ -7,6 +7,7 @@ It implements a custom UnmanagedCallersOnly DllMain entrypoint which handles DLL
   
 #  Limitations
 The limitations for this particular implementation is outlined in the [official documentation for NativeAOT](https://learn.microsoft.com/en-us/dotnet/core/deploying/native-aot/#limitations-of-native-aot-deployment)
+
 The most notable limitation is that it is bound to x64 and ARM64 architectures.
 
 
