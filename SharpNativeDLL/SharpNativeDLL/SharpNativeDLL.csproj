@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<PublishAot>true</PublishAot>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<PlatformTarget>AnyCPU</PlatformTarget>
+
+	<DebugType>none</DebugType>
+	<DebugSymbols>false</DebugSymbols>
+
+	<Optimize>true</Optimize>
+  </PropertyGroup>
+</Project>
